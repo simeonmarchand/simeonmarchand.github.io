@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'PoppinsBold';
+  src: url(fonts/Poppins-Bold.ttf);
+  font-family: 'Popppins';
+  src: url(fonts/Poppins-Regular.ttf);
+  font-family: 'PoppinsLight';
+  src: url(fonts/Poppins-Light.ttf);
+}
+
+body{
+  background-color: #171717;
+}
+
+
+h1 {color: #DA0037;
+  font-family: 'PoppinsBold', sans-serif;
+}
+
+p{color: #EDEDED;
+  font-family: 'Poppins', sans-serif;
+
+}
