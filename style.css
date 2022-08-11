@@ -17,9 +17,12 @@ h1 {color: #DA0037;
 
 p{color: #EDEDED;
   font-family: 'Poppins', sans-serif;
-
 }
 
-a{color: #0F3460;
+a:link{color: #FFF80A;
+  font-family: 'PoppinsLight';
+}
+
+a:visited{color: #FEB139;
   font-family: 'PoppinsLight';
 }
