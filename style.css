@@ -7,22 +7,30 @@
   src: url(fonts/Poppins-Light.ttf);
 }
 
-body{
+body {
   background-color: #171717;
 }
 
-h1 {color: #DA0037;
+h1 {
+  color: #DA0037;
   font-family: 'PoppinsBold', sans-serif;
 }
 
-p{color: #EDEDED;
+p {
+  color: #EDEDED;
   font-family: 'Poppins', sans-serif;
 }
 
-a:link{color: #FFF80A;
+a:link {
+  color: #FFF80A;
   font-family: 'PoppinsLight';
 }
 
-a:visited{color: #FEB139;
+a:visited {
+  color: #FEB139;
   font-family: 'PoppinsLight';
+}
+
+h1 {
+  text-align: center;
 }
