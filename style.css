@@ -1,3 +1,4 @@
+/* We are changing the default font used on the website */
 @font-face {
   font-family: 'PoppinsBold';
   src: url(fonts/Poppins-Bold.ttf);
@@ -7,30 +8,41 @@
   src: url(fonts/Poppins-Light.ttf);
 }
 
+/* Changing the body background to fit with the color scheme that was layed out in module 1 course project */
 body {
   background-color: #171717;
 }
 
+/* adding formatting to <h1> attributes, including color and font change */
 h1 {
   color: #DA0037;
   font-family: 'PoppinsBold', sans-serif;
+  text-align: center;
 }
 
+/* adding formatting to <p> attributes, including color and font change */
 p {
   color: #EDEDED;
   font-family: 'Poppins', sans-serif;
 }
 
+/* adding formatting to <a> link attributes, including color and font change */
 a:link {
   color: #FFF80A;
   font-family: 'PoppinsLight';
 }
 
+/* adding formatting to <a> visited attributes, including color and font change */
 a:visited {
   color: #FEB139;
   font-family: 'PoppinsLight';
 }
 
-h1 {
-  text-align: center;
+/* adding the class attribute to the 2nd paragraph of the home page, with text formatting */
+.second {
+  background-color: rgb(107, 39, 163);
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
 }
