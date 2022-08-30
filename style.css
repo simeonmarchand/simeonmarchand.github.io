@@ -1,5 +1,5 @@
 /* _____________
-  General Style 
+  General Style
 ________________*/
 
 /* Changing the body background to fit with the color scheme that was layed out in module 1 course project */
@@ -45,7 +45,7 @@ a:visited {
 }
 
 /* _______________________
-  Header and Main Navigation 
+  Header and Main Navigation
 __________________________*/
 
 /* adding formatting to <h1> attributes, including color and font change */
@@ -53,4 +53,43 @@ h1 {
   color: #DA0037;
   font-family: 'PoppinsBold', sans-serif;
   text-align: center;
+}
+
+h2 {
+  color: #DA0037;
+  font-family: 'PoppinsBold', sans-serif;
+  text-align: center;
+}
+
+/* NAVIGATION BAR */
+.link_nav {
+  border: solid;
+  border-width: medium;
+  border-color: #DA0037;
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
 }
