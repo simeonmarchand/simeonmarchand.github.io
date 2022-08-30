@@ -7,17 +7,12 @@ body {
   background-color: #171717;
 }
 
-/* adding formatting to <p> attributes, including color and font change */
-p {
-  color: #EDEDED;
-  font-family: 'Poppins', sans-serif;
-}
-
 /* adding the ID selector */
 #para1 {
   background-color: #FF9551
 }
 
+table.
 /* _______________
   Typography
 _______________ */
@@ -42,6 +37,17 @@ a:link {
 a:visited {
   color: #FEB139;
   font-family: 'PoppinsLight';
+}
+
+/* adding formatting to <p> attributes, including color and font change */
+p {
+  color: #EDEDED;
+  font-family: 'Poppins', sans-serif;
+}
+
+div {
+  color: #EDEDED;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* _______________________
