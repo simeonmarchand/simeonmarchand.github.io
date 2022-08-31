@@ -4,50 +4,90 @@ ________________*/
 
 /* Changing the body background to fit with the color scheme that was layed out in module 1 course project */
 body {
-  background-color: #171717;
+    background-color: #171717;
 }
 
 /* adding the ID selector */
 #para1 {
-  background-color: #FF9551
+    background-color: #FF9551
 }
 
-table.
+/* formatting the table */
+table {
+    border-collapse: collapse;
+    width: 350px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 10px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    style: #171717;
+}
+
+/* Formating the  table*/
+tr,
+th,
+td {
+    padding-left: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border: 1px solid #ddd;
+    color: #EDEDED;
+}
+
+#fav_para {
+    color: #FF7F3F;
+}
+
+#format1 {
+    text-decoration-line: line-through;
+}
+
+#format2 {
+    text-decoration-line: overline;
+}
+
+h2.fav_header {
+    text-transform: uppercase;
+    text-align: left;
+}
+
 /* _______________
   Typography
 _______________ */
 
 /* We are changing the default font used on the website */
 @font-face {
-  font-family: 'PoppinsBold';
-  src: url(fonts/Poppins-Bold.ttf);
-  font-family: 'Popppins';
-  src: url(fonts/Poppins-Regular.ttf);
-  font-family: 'PoppinsLight';
-  src: url(fonts/Poppins-Light.ttf);
+    font-family: 'PoppinsBold';
+    src: url(fonts/Poppins-Bold.ttf);
+    font-family: 'Popppins';
+    src: url(fonts/Poppins-Regular.ttf);
+    font-family: 'PoppinsLight';
+    src: url(fonts/Poppins-Light.ttf);
 }
 
 /* adding formatting to <a> link attributes, including color and font change */
 a:link {
-  color: #FFF80A;
-  font-family: 'PoppinsLight';
+    color: #FFF80A;
+    font-family: 'PoppinsLight';
 }
 
 /* adding formatting to <a> visited attributes, including color and font change */
 a:visited {
-  color: #FEB139;
-  font-family: 'PoppinsLight';
+    color: #FEB139;
+    font-family: 'PoppinsLight';
 }
 
 /* adding formatting to <p> attributes, including color and font change */
 p {
-  color: #EDEDED;
-  font-family: 'Poppins', sans-serif;
+    color: #EDEDED;
+    font-family: 'Poppins', sans-serif;
 }
 
 div {
-  color: #EDEDED;
-  font-family: 'Poppins', sans-serif;
+    color: #EDEDED;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* _______________________
@@ -56,46 +96,63 @@ __________________________*/
 
 /* adding formatting to <h1> attributes, including color and font change */
 h1 {
-  color: #DA0037;
-  font-family: 'PoppinsBold', sans-serif;
-  text-align: center;
+    color: #DA0037;
+    font-family: 'PoppinsBold', sans-serif;
+    text-align: center;
 }
 
 h2 {
-  color: #DA0037;
-  font-family: 'PoppinsBold', sans-serif;
-  text-align: center;
+    color: #DA0037;
+    font-family: 'PoppinsBold', sans-serif;
+    text-align: center;
 }
 
 /* NAVIGATION BAR */
 .link_nav {
-  border: solid;
-  border-width: medium;
-  border-color: #DA0037;
-  float: right;
+    border: solid;
+    border-width: medium;
+    border-color: #DA0037;
+    float: right;
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
 li {
-  float: left;
+    float: left;
 }
 
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+    background-color: #111;
+}
+
+/* adding link formatting */
+a:active {
+    color: #FFAE6D;
+}
+
+a:visited {
+    color: #533483;
+}
+
+a:hover {
+    color: #FEB139;
+}
+
+a:link {
+    color: #FFF80A;
 }
