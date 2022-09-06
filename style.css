@@ -8,9 +8,11 @@ body {
 }
 
 /* adding the ID selector */
-#para1 {
+#para1,
+#random {
     background-color: #FF9551
 }
+
 
 /* formatting the table */
 table {
